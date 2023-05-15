@@ -14,8 +14,16 @@ public class ExamenPrimo {
 		
 		if(numero%2==0) {
 			System.out.println("No es primo");
+			while(numero!=0) {
+				numero=numero/2;
+				System.out.println(numero);
+			}
 		}else {
 			System.out.println("Es primo");
+			while(numero!=1) {
+				numero=numero/2;
+				System.out.println(numero);
+			}
 		}
 		
 	}
